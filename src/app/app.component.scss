@@ -1,19 +1,12 @@
-.navbar {
+.container {
     width: 100%;
+    clear: both;
 }
 
-.navbar ul>li {
-    display: inline;
-    padding: 0.5em;
-    margin: 0.5em;
+.float-left {
+    float: left;
 }
 
-.sidebar {
-    margin-right: 1em;
-    background-color: white;
+.float-right {
+    float: right;
 }
-
-.main {
-    background-color: lightgray;
-}
-

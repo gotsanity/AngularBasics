@@ -1,0 +1,19 @@
+.main {
+    max-width: 400px;
+}
+
+p {
+    background-color: palegoldenrod;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #000;
+}
+
+.dropdown-button {
+    user-select: none;
+    border: 1px solid #333;
+}
+
+.hidden {
+    visibility: hidden;
+}

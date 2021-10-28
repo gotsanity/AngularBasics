@@ -1,0 +1,9 @@
+<div class="navbar">
+  <ul>
+    <li *ngFor="let item of urls">
+      <a [href]="item.url">{{ item.name }}</a>
+    </li>
+  </ul>
+
+  <!-- <button (click)='functionName("test")'>click me</button> -->
+</div>

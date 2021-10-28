@@ -1,0 +1,17 @@
+.sidebar {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul>li {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightskyblue;
+    color: black;
+    font-weight: bold;
+}
