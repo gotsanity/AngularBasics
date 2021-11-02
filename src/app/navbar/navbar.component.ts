@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   urls: any[] = [
-    { url: "https://google.com", name: "Google" },
-    { url: "https://centralia.edu", name: "Centralia College" },
-    { url: "https://angular.io", name: "Angular" }
+    { route: '', name: 'Home' },
+    { route: '/about', name: 'About' },
+    { route: '/profile/jesse', name: 'Jesse' }
   ];
 
   constructor() { }

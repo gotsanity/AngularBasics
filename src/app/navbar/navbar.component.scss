@@ -20,3 +20,8 @@ a {
     margin: 5px;
     padding: 5px;
 }
+
+a.active {
+    color: black;
+    background-color: lightgray;
+}
