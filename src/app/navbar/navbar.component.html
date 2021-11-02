@@ -1,9 +1,14 @@
 <div class="navbar">
   <ul>
     <li *ngFor="let item of urls">
-      <a [routerLink]="item.route" routerLinkActive="active">{{ item.name }}</a>
+      <a [routerLink]="item.route" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{ item.name }}</a>
     </li>
   </ul>
 
   <!-- <button (click)='functionName("test")'>click me</button> -->
 </div>
+
+<!-- http://localhost:4200/ -->
+<!-- http://localhost:4200/about -->
+<!-- http://localhost:4200/about/me -->
+<!-- http://localhost:4200/about/you -->

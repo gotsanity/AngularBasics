@@ -1,3 +1,8 @@
-<p>
-  profile for {{ profileName }} works!
-</p>
+
+<div class="profile">
+  <img class="pic" src="assets/images/placeholder.png">
+  <div class="name"><strong>Name: </strong>{{ currentProfile.name }}</div>
+  <div class="age"><strong>Age: </strong>{{ currentProfile.age }}</div>
+  <div class="favGame"><strong>Favorite Game: </strong>{{ currentProfile.favoriteGame }}</div>
+  <button (click)="goHome()">Go Home</button>
+</div>

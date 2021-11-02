@@ -7,6 +7,7 @@ import { Routes, RouterModule } from "@angular/router"; // router imported from 
 
 // our list of routes
 const routes: Routes = [
+    { path: 'home', component: MainComponent },
     { path: 'about', component: AboutComponent },
     { path: 'profile/:id', component: ProfileComponent },
     { path: '', component: MainComponent },
