@@ -1,3 +1,5 @@
+import { TodoListComponent } from './TodoList/TodoList.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AboutComponent } from './about/about.component';
@@ -10,7 +12,9 @@ const routes: Routes = [
     { path: 'home', component: MainComponent },
     { path: 'about', component: AboutComponent },
     { path: 'profile/:id', component: ProfileComponent },
+    { path: 'todo', component: TodoListComponent },
     { path: '', component: MainComponent },
+    { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

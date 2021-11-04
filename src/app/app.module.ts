@@ -8,15 +8,21 @@ import { MainComponent } from './main/main.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { ProfileComponent } from './profile/profile.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { TodoListComponent } from './TodoList/TodoList.component';
+import { TodoItemComponent } from './TodoItem/TodoItem.component';
 
 @NgModule({
-  declarations: [				
+  declarations: [							
     AppComponent,
       NavbarComponent,
       SidebarComponent,
       MainComponent,
       AboutComponent,
-      ProfileComponent
+      ProfileComponent,
+      PageNotFoundComponent,
+      TodoListComponent,
+      TodoItemComponent
    ],
   imports: [
     BrowserModule,

@@ -9,6 +9,7 @@ export class NavbarComponent implements OnInit {
   urls: any[] = [
     { route: '', name: 'Home' },
     { route: '/about', name: 'About' },
+    { route: '/todo', name: 'Todo List' },
     { route: '/profile/0', name: 'Jesse' },
     { route: '/profile/1', name: 'Sarah' }
   ];
